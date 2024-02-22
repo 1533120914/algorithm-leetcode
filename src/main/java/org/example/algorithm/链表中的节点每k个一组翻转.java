@@ -7,7 +7,7 @@ public class 链表中的节点每k个一组翻转 {
         //找到每次翻转的尾部
         ListNode tail = head;
         //遍历k次到尾部
-        for(int i = 0; i < k; i++){dddddddd
+        for(int i = 0; i < k; i++){
             //如果不足k到了链表尾，直接返回，不翻转
             if(tail == null)
                 return head;
