@@ -1,10 +1,7 @@
 package org.example;
 
-import org.example.algorithm.平方根;
+import java.util.Stack;
 
 public class Main {
-    public static void main(String[] args) {
-        int s = 平方根.mySqrt(8);
-        System.out.println(s);
-    }
+
 }
